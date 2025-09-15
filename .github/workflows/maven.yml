@@ -1,0 +1,27 @@
+name: Maven Tests
+
+on:
+  push:
+    branches: [ "main" ]   # runs on push to main
+  pull_request:
+    branches: [ "main" ]   # also runs on PRs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest   # GitHub hosted runner
+
+    steps:
+      # Step 1: Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Java
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # Step 3: Build and run tests
+      - name: Build with Maven
+        run: mvn -B clean test
