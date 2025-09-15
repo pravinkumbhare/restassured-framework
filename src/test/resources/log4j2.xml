@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Logging -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%level] [%logger{36}] - %msg%n" />
+        </Console>
+
+        <!-- Rolling File Logging -->
+        <RollingFile name="DailyRollingFile"
+                     fileName="logs/api-tests.log"
+                     filePattern="logs/api-tests-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%level] [%logger{36}] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- Roll file daily -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!-- Optional: roll when file reaches 10MB -->
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Project package logs -->
+        <Logger name="com.demo" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="DailyRollingFile"/>
+        </Logger>
+
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
+

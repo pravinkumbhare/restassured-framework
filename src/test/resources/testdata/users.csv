@@ -1,0 +1,4 @@
+username,password,expectedStatus
+john,pass123,200
+mary,wrongpass,401
+alex,pass999,200
