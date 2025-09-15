@@ -1,0 +1,5 @@
+{
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file."
+}
