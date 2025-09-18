@@ -36,7 +36,8 @@ pipeline {
                     reportFiles: 'extent-report.html',
                     reportName: 'Extent Report',
                     keepAll: true,
-                    alwaysLinkToLastBuild: true
+                    alwaysLinkToLastBuild: true,
+                    allowMissing: false
                 ])
             }
         }
