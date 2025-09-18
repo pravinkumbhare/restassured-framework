@@ -27,10 +27,7 @@ pipeline {
 
         stage('Extent Report') {
             steps {
-                // Archive the extent report as an artifact
                 archiveArtifacts artifacts: 'target/extent-report.html', allowEmptyArchive: false
-
-                // Publish Extent report
                 publishHTML([
                     reportDir: 'target',
                     reportFiles: 'extent-report.html',
@@ -41,16 +38,18 @@ pipeline {
                 ])
             }
         }
+
+        stage('Publish Test Results') {
+            steps {
+                catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                    junit allowEmptyResults: true, skipPublishingChecks: true, testResults: 'target/surefire-reports/*.xml'
+                }
+            }
+        }
     }
 
     post {
         always {
-            // Don't let JUnit mark the build as unstable
-            catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-                junit allowEmptyResults: true, skipPublishingChecks: true, testResults: 'target/surefire-reports/*.xml'
-            }
-
-            // Double-ensure final status is SUCCESS
             script {
                 if (currentBuild.result == 'UNSTABLE' || currentBuild.result == null) {
                     currentBuild.result = 'SUCCESS'
@@ -58,5 +57,4 @@ pipeline {
             }
         }
     }
-
 }
