@@ -50,11 +50,7 @@ pipeline {
 
     post {
         always {
-            script {
-                if (currentBuild.result == 'UNSTABLE' || currentBuild.result == null) {
-                    currentBuild.result = 'SUCCESS'
-                }
-            }
+            echo "Skipping JUnit publishing since Allure/Extent are used."
         }
     }
 }
