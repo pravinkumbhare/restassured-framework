@@ -187,3 +187,66 @@
 }
 [2025-09-18 13:21:11] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
 [2025-09-18 13:21:12] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-18 13:56:41] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-18 13:56:41] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-18 13:56:41] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-18 13:56:41] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-18 13:56:41] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-18 13:56:41] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-18 13:56:42] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-18 13:56:43] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-18 13:56:44] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-18 13:56:50] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@3956e933
+[2025-09-18 13:56:50] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 778,
+  "title": "No Highway",
+  "body": "Eius saepe omnis ipsa aperiam.",
+  "id": 101
+}
+[2025-09-18 13:56:50] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@5f63a6f2
+[2025-09-18 13:56:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 12345,
+  "title": "Title with Buliler Pattern",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-18 13:56:51] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@2b8a11d7
+[2025-09-18 13:56:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 999,
+  "title": "Custom Title 1",
+  "body": "Voluptas error esse quis voluptatem cumque optio aliquam. Consectetur laudantium illo. Voluptatem est est et nam et nihil voluptate.",
+  "id": 101
+}
+[2025-09-18 13:56:51] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@52bcd7c9
+[2025-09-18 13:56:52] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 888,
+  "title": "Custom Title 2",
+  "body": "Aspernatur corporis consequatur. In molestiae sit sed soluta qui. Necessitatibus distinctio et quod. Officia velit autem.",
+  "id": 101
+}
+[2025-09-18 13:56:52] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@1ed17eaf
+[2025-09-18 13:56:52] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 999,
+  "title": "Title: A Catskill Eagle",
+  "body": "Et expedita molestiae dolore quas placeat dignissimos. Aut cupiditate et accusantium. Blanditiis ut eius qui impedit rem.",
+  "id": 101
+}
+[2025-09-18 13:56:53] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {title=foo, body=bar, userId=1}
+[2025-09-18 13:56:53] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+[2025-09-18 13:56:53] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-18 13:56:54] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
