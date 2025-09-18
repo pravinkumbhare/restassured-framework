@@ -1,69 +1,50 @@
 pipeline {
     agent any
 
-//     tools {
-//         jdk 'jdk17'
-//         maven 'maven3'
-//     }
-
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Build & Test') {
             steps {
-                bat 'mvn clean test -Dsurefire.useFile=false'
+                sh 'mvn clean test'
             }
         }
 
         stage('Allure Report') {
             steps {
-                // Generate Allure report in Jenkins from allure-results
                 allure([
-                  includeProperties: false,
-                  jdk: '',
-                  results: [[path: 'allure-results']]
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'allure-results']]
                 ])
-
-                // Archive the generated HTML report as artifact
-                archiveArtifacts artifacts: 'allure-report/**/*', allowEmptyArchive: true
-
-                // Publish HTML report in Jenkins UI
                 publishHTML([
                     reportDir: 'allure-report',
                     reportFiles: 'index.html',
                     reportName: 'Allure Report',
                     keepAll: true,
-                    allowMissing: true
+                    alwaysLinkToLastBuild: true
                 ])
             }
         }
 
+        stage('Extent Report') {
+            steps {
+                // Archive the extent report as an artifact
+                archiveArtifacts artifacts: 'target/extent-report.html', allowEmptyArchive: false
 
-       stage('Extent Report') {
-           steps {
-               // Archive Extent report
-                archiveArtifacts artifacts: 'target/extent-report.html', allowEmptyArchive: true
-
-               // Publish Extent report in Jenkins UI
-               publishHTML([
-                  reportDir: 'target',
-                  reportFiles: 'extent-report.html',
-                  reportName: 'Extent Report',
-                  keepAll: true,
-                  alwaysLinkToLastBuild: true,
-                  allowMissing: true
-               ])
-           }
-        }
+                // Publish Extent report
+                publishHTML([
+                    reportDir: 'target',
+                    reportFiles: 'extent-report.html',
+                    reportName: 'Extent Report',
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true
+                ])
+            }
+        }c
     }
 
     post {
         always {
-            junit '**/target/surefire-reports/*.xml'
+            junit 'target/surefire-reports/*.xml'
         }
     }
 }
