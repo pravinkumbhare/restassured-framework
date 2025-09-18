@@ -46,7 +46,7 @@ pipeline {
        stage('Extent Report') {
            steps {
                // Archive Extent report
-               archiveArtifacts artifacts: 'target/extent-report/**/*', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'target/extent-report.html', allowEmptyArchive: true
 
                // Publish Extent report in Jenkins UI
                publishHTML([
