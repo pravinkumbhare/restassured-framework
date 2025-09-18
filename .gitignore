@@ -11,7 +11,10 @@ target/
 *.iws
 *.iml
 *.ipr
-restassured-demo/logs
+
+# Ignore all logs everywhere
+logs/
+*.log
 
 ### Eclipse ###
 .apt_generated
