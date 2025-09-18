@@ -124,3 +124,66 @@
 }
 [2025-09-18 11:22:33] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
 [2025-09-18 11:22:33] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-18 13:20:58] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-18 13:20:58] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-18 13:20:59] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-18 13:20:59] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-18 13:20:59] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-18 13:20:59] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-18 13:20:59] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-18 13:21:01] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-18 13:21:01] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-18 13:21:08] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@73796ae5
+[2025-09-18 13:21:08] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 347,
+  "title": "The Needle's Eye",
+  "body": "Quia qui occaecati veritatis quo dicta natus.",
+  "id": 101
+}
+[2025-09-18 13:21:08] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@21dbd651
+[2025-09-18 13:21:08] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 12345,
+  "title": "Title with Buliler Pattern",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-18 13:21:09] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@149162a4
+[2025-09-18 13:21:09] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 999,
+  "title": "Custom Title 1",
+  "body": "Consequatur ad atque dicta nesciunt enim. Maxime qui excepturi ratione minima quis minima. Ipsam quasi nam voluptatum. Illo qui voluptatem dolorem odit in modi. Rerum est quo.",
+  "id": 101
+}
+[2025-09-18 13:21:09] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@203b98cf
+[2025-09-18 13:21:09] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 888,
+  "title": "Custom Title 2",
+  "body": "Libero voluptatem laudantium in perferendis sunt odit repellat. Consequuntur est facilis ut culpa laudantium dicta. Sunt cum tempora temporibus nulla. Vero sint dolor voluptatibus delectus quae officiis similique. Qui quos quo perspiciatis doloribus qui.",
+  "id": 101
+}
+[2025-09-18 13:21:09] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@79de00af
+[2025-09-18 13:21:10] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 999,
+  "title": "Title: Tender Is the Night",
+  "body": "Deleniti sint minima aut qui unde autem id. Eligendi inventore iusto. Ut expedita nesciunt. Reprehenderit ratione animi autem.",
+  "id": 101
+}
+[2025-09-18 13:21:10] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {title=foo, body=bar, userId=1}
+[2025-09-18 13:21:11] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+[2025-09-18 13:21:11] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-18 13:21:12] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
