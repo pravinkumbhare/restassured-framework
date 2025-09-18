@@ -1,49 +1,46 @@
-name: Maven Tests
+name: API Tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: write   # ✅ allow pushing to gh-pages branch
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repo
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Setup Java
-      - name: Set up JDK 17
+      - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '17'
           distribution: 'temurin'
+          java-version: '17'
 
-      # Step 3: Build and run tests
-      - name: Build with Maven
-        run: mvn -B clean test
+      - name: Run tests
+        run: |
+          ./gradlew clean test  # or your test command
 
-      # Step 4: Install Allure CLI
-      - name: Install Allure CLI
-        run: npm install -g allure-commandline --save-dev
+      # Upload Allure Report as artifact
+      - name: Upload Allure Report Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: target/allure-report/
 
-      # Step 5: Generate Allure HTML Report
-      - name: Generate Allure Report
-        run: allure generate allure-results --clean -o reports/allure-report
+      # Upload Extent Report as artifact
+      - name: Upload Extent Report Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: extent-report
+          path: target/extent-report/
 
-      # Step 6: Copy Extent Report to reports folder
-      - name: Copy Extent Report
-        run: mkdir -p reports/extent-report && cp target/extent-report.html reports/extent-report/index.html
-
-      # Step 7: Deploy both reports to GitHub Pages
-      - name: Deploy reports to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      # Publish reports to GitHub Pages
+      - name: Deploy Reports to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v6
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: reports
+          publish_dir: ./target  # adjust if your reports are in different folder
