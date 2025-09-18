@@ -1,0 +1,441 @@
+[2025-09-15 11:52:15] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:52:15] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 11:52:16] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 11:52:16] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 11:52:16] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 11:52:16] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 11:52:16] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 11:52:18] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 11:52:19] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 11:52:29] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-15 11:52:29] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 11:52:31] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:52:31] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 11:55:13] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:55:14] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 11:55:14] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 11:55:14] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 11:55:14] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 11:55:14] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 11:55:15] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 11:55:17] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 11:55:18] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 11:55:30] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-15 11:55:31] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 11:55:33] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:55:33] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 11:56:19] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:56:19] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 11:56:19] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 11:56:19] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 11:56:19] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 11:56:19] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 11:56:20] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 11:56:23] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 11:56:23] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 11:56:35] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-15 11:56:36] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 11:56:36] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:56:37] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 11:57:21] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:57:22] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 11:57:22] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 11:57:22] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 11:57:22] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 11:57:22] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 11:57:24] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 11:57:26] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 11:57:27] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 11:57:36] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {title=foo, body=bar, userId=1}
+[2025-09-15 11:57:37] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+[2025-09-15 11:57:38] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 11:57:38] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 17:51:08] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 17:51:09] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 17:51:09] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 17:51:09] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 17:51:09] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 17:51:09] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 17:51:10] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 17:51:12] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 17:51:13] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 17:51:30] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-15 17:51:31] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 17:51:33] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 17:51:34] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 18:17:52] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 18:17:52] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 18:17:53] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 18:17:53] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 18:17:53] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 18:17:53] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 18:17:54] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 18:17:57] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 18:17:58] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 18:18:09] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-15 18:18:11] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 18:18:12] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 18:18:13] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 18:32:49] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 18:32:50] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 18:32:50] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 18:32:50] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 18:32:50] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 18:32:50] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 18:32:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 18:32:53] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 18:32:57] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 18:33:11] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-15 18:33:11] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 18:33:13] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 18:33:14] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 19:40:39] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 19:40:40] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 19:40:40] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 19:40:40] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 19:40:40] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 19:40:40] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 19:40:42] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 19:40:48] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 19:40:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 19:41:07] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-15 19:41:09] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 19:41:10] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 19:41:11] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 20:21:28] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 20:21:29] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 20:21:29] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 20:21:29] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 20:21:29] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 20:21:29] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 20:21:32] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 20:21:36] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 20:21:37] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 20:21:55] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {body=bar, userId=1, title=foo}
+[2025-09-15 20:21:57] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "body": "bar",
+  "userId": 1,
+  "title": "foo",
+  "id": 101
+}
+[2025-09-15 20:21:58] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 20:21:58] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 21:04:49] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 21:04:50] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 21:04:50] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 21:04:50] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 21:04:50] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 21:04:50] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 21:04:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 21:04:53] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 21:04:59] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 21:05:31] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, title=foo, body=bar}
+[2025-09-15 21:05:32] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "title": "foo",
+  "body": "bar",
+  "id": 101
+}
+[2025-09-15 21:05:34] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 21:05:34] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 21:06:47] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 21:06:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 21:06:51] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 21:06:51] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 21:06:51] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 21:06:51] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 21:06:53] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 21:06:58] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 21:06:59] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 21:07:22] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {title=foo, body=bar, userId=1}
+[2025-09-15 21:07:24] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+[2025-09-15 21:07:25] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 21:07:26] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 21:09:26] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 21:09:26] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-15 21:09:27] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-15 21:09:27] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-15 21:09:27] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-15 21:09:27] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-15 21:09:29] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-15 21:09:35] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-15 21:09:37] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-15 21:10:02] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {title=foo, userId=1, body=bar}
+[2025-09-15 21:10:03] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "title": "foo",
+  "userId": 1,
+  "body": "bar",
+  "id": 101
+}
+[2025-09-15 21:10:03] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-15 21:10:04] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-16 21:02:18] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-16 21:02:19] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-16 21:02:19] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-16 21:02:19] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-16 21:02:19] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-16 21:02:19] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-16 21:02:36] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-16 21:02:40] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-16 21:02:41] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-16 21:03:26] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {body=bar, title=foo, userId=1}
+[2025-09-16 21:03:39] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "body": "bar",
+  "title": "foo",
+  "userId": 1,
+  "id": 101
+}
+[2025-09-16 21:03:40] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-16 21:03:42] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-16 21:04:06] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@1ff15a50
+[2025-09-16 21:04:16] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Creating new Title: API Automation using Rest Assured.",
+  "body": "Create payload to send request.",
+  "id": 101
+}
+[2025-09-16 21:12:31] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@839df62
+[2025-09-16 21:12:33] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Creating new Title: API Automation using Rest Assured.",
+  "body": "Create payload to send request.",
+  "id": 101
+}
+[2025-09-16 21:12:33] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@69c33ea2
+[2025-09-16 21:12:34] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from POJO",
+  "body": "Updated payload is built using POJO class.",
+  "id": 1
+}
+[2025-09-16 21:16:03] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@4e3e11b9
+[2025-09-16 21:16:05] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Creating new Title: API Automation using Rest Assured.",
+  "body": "Create payload to send request.",
+  "id": 101
+}
+[2025-09-16 21:16:43] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-16 21:16:45] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-16 21:16:45] [INFO] [com.demo.tests.DataDrivenPostApiTest] - This is an INFO Log
+[2025-09-16 21:16:45] [DEBUG] [com.demo.tests.DataDrivenPostApiTest] - This is an Debug log
+[2025-09-16 21:16:45] [ERROR] [com.demo.tests.DataDrivenPostApiTest] - This is an Error log
+[2025-09-16 21:16:45] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: {userId=777, title=Updated title from JSON, body=Updated payload is read from JSON file.}
+[2025-09-16 21:16:49] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from JSON",
+  "body": "Updated payload is read from JSON file.",
+  "id": 1
+}
+[2025-09-16 21:17:03] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=111, title=New title from JSON, body=This payload is read from JSON file.}
+[2025-09-16 21:17:06] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "New title from JSON",
+  "body": "This payload is read from JSON file.",
+  "id": 101
+}
+[2025-09-16 21:17:20] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: {userId=1, body=bar, title=foo}
+[2025-09-16 21:17:21] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1,
+  "body": "bar",
+  "title": "foo",
+  "id": 101
+}
+[2025-09-16 21:17:22] [INFO] [com.demo.utils.ApiUtils] - GET Request -> Endpoint: /posts
+[2025-09-16 21:17:22] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200
+[2025-09-16 21:35:38] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@61bb1e4d
+[2025-09-16 21:35:41] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Title One",
+  "body": "Body One",
+  "id": 101
+}
+[2025-09-16 21:35:41] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@34eaf9c1
+[2025-09-16 21:35:43] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 5678,
+  "title": "Title Two",
+  "body": "Body Two",
+  "id": 101
+}
+[2025-09-16 21:49:05] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@1788cb61
+[2025-09-16 21:49:07] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 6438,
+  "title": "Dynamic Title: The Golden Bowl",
+  "body": "Dynamic Body: Quo libero rem reiciendis.",
+  "id": 101
+}

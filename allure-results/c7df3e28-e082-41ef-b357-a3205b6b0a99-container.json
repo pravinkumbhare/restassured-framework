@@ -1,0 +1,1 @@
+{"uuid":"c7df3e28-e082-41ef-b357-a3205b6b0a99","name":"CRUDUsingPOJO","children":["51d10634-5fbb-4e72-b481-2b74e932b856"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1758037562340,"stop":1758037563117}],"afters":[],"start":1758037562048,"stop":1758037565425}

@@ -1,0 +1,1 @@
+{"uuid":"e1186484-435a-4c53-96a6-a2fb54125c55","name":"CRUDUsingBuilderPattern","children":["faf7015a-8e65-4d8f-959e-144571f4a55c","7724e306-7b0c-4bb5-b150-b0cc25f8848c"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1758115694698,"stop":1758115696567}],"afters":[],"start":1758115694245,"stop":1758115701603}

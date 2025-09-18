@@ -1,0 +1,532 @@
+[2025-09-17 06:27:25] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@310d57b1
+[2025-09-17 06:27:27] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1110,
+  "title": "Dynamic Title: The Heart Is Deceitful Above All Things",
+  "body": "Dynamic Body: Voluptas ad maiores non dolor dolor.",
+  "id": 101
+}
+[2025-09-17 06:33:52] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@6b867ee7
+[2025-09-17 06:33:54] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 7942,
+  "title": "Dynamic Title: Paths of Glory",
+  "body": "Dynamic Body: Sunt quia voluptatem consequuntur.",
+  "id": 101
+}
+[2025-09-17 06:33:54] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@81a8898
+[2025-09-17 06:33:55] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from POJO",
+  "body": "Updated payload is built using POJO class.",
+  "id": 1
+}
+[2025-09-17 07:12:53] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@11c581a0
+[2025-09-17 07:12:55] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 432,
+  "title": "The Daffodil Sky",
+  "body": "Necessitatibus ex sint consequatur.",
+  "id": 101
+}
+[2025-09-17 07:13:13] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@34c62fdf
+[2025-09-17 07:13:15] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 483,
+  "title": "The Waste Land",
+  "body": "Quod assumenda dignissimos.",
+  "id": 101
+}
+[2025-09-17 07:13:29] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@3de79067
+[2025-09-17 07:13:31] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 111,
+  "title": "The Last Enemy",
+  "body": "Sed ipsam libero qui.",
+  "id": 101
+}
+[2025-09-17 07:17:27] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@935493d
+[2025-09-17 07:17:29] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 776,
+  "title": "Jacob Have I Loved",
+  "body": "Quas sed maxime reprehenderit a.",
+  "id": 101
+}
+[2025-09-17 07:17:29] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@2fb70301
+[2025-09-17 07:17:30] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 7575,
+  "title": "Dynamic Title: The Heart Is a Lonely Hunter",
+  "body": "Dynamic Body: Veniam architecto corporis.",
+  "id": 101
+}
+[2025-09-17 07:17:30] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@3921e96f
+[2025-09-17 07:17:31] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from POJO",
+  "body": "Updated payload is built using POJO class.",
+  "id": 1
+}
+[2025-09-17 07:20:22] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@6b867ee7
+[2025-09-17 07:20:25] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 3367,
+  "title": "Dynamic Title: The Needle's Eye",
+  "body": "Dynamic Body: Dolores dolore quo.",
+  "id": 101
+}
+[2025-09-17 07:20:25] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@578d5d02
+[2025-09-17 07:20:26] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 734,
+  "title": "The Millstone",
+  "body": "Delectus vitae praesentium dignissimos veritatis et.",
+  "id": 101
+}
+[2025-09-17 07:20:26] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@3f5ac587
+[2025-09-17 07:20:27] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Updated title from POJO",
+  "body": "Updated payload is built using POJO class.",
+  "id": 1
+}
+[2025-09-17 13:35:59] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@d5bb1c4
+[2025-09-17 13:36:02] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 12345,
+  "title": "Title with Buliler Pattern",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-17 13:36:22] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@7bd96822
+[2025-09-17 13:36:24] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 12345,
+  "title": "Title with Buliler Pattern",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-17 13:36:41] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@7bd96822
+[2025-09-17 13:36:43] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 12345,
+  "title": "Title with Buliler Pattern",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-17 13:37:31] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@1b13467c
+[2025-09-17 13:37:33] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 12345,
+  "title": "Default Builder Title",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-17 13:37:50] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@7bd96822
+[2025-09-17 13:37:52] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 100,
+  "title": "Default Builder Title",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-17 13:38:08] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@7bd96822
+[2025-09-17 13:38:10] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 12345,
+  "title": "Title with Buliler Pattern",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-17 13:44:41] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@45592af7
+[2025-09-17 13:44:43] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 796,
+  "title": "This Side of Paradise",
+  "body": "Nam qui adipisci quae ut et.",
+  "id": 101
+}
+[2025-09-17 13:45:21] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@63f40ca0
+[2025-09-17 13:45:23] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 413,
+  "title": "Clouds of Witness",
+  "body": "Vel blanditiis qui distinctio error.",
+  "id": 101
+}
+[2025-09-17 13:45:44] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@4dad8ec0
+[2025-09-17 13:45:48] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 440,
+  "title": "Unweaving the Rainbow",
+  "body": "Tempora sed qui maiores vitae eius natus.",
+  "id": 101
+}
+[2025-09-17 15:48:32] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@63f40ca0
+[2025-09-17 15:48:34] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 777,
+  "title": "A Swiftly Tilting Planet",
+  "body": "Excepturi natus dolor.",
+  "id": 101
+}
+[2025-09-17 15:49:06] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@20d19f2c
+[2025-09-17 15:49:08] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 313,
+  "title": "That Hideous Strength",
+  "body": "Earum iste et et tenetur.",
+  "id": 101
+}
+[2025-09-17 15:51:19] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@4dad8ec0
+[2025-09-17 15:51:21] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 458,
+  "title": "The Needle's Eye",
+  "body": "Fugit rerum animi rerum fuga error ut.",
+  "id": 101
+}
+[2025-09-17 15:51:42] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@63f40ca0
+[2025-09-17 15:51:44] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 910,
+  "title": "The Last Temptation",
+  "body": "Ut atque exercitationem perferendis delectus ea.",
+  "id": 101
+}
+[2025-09-17 15:55:22] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@1ab14636
+[2025-09-17 15:55:26] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 761,
+  "title": "The Skull Beneath the Skin",
+  "body": "Ipsum beatae eum natus consequatur enim sed voluptatem.",
+  "id": 101
+}
+[2025-09-17 15:55:41] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@20d19f2c
+[2025-09-17 15:55:46] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 226,
+  "title": "The Torment of Others",
+  "body": "Impedit ut ad.",
+  "id": 101
+}
+[2025-09-17 15:56:34] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@20d19f2c
+[2025-09-17 15:56:36] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 588,
+  "title": "The Green Bay Tree",
+  "body": "Dolor odio et qui tempore dicta ut assumenda.",
+  "id": 101
+}
+[2025-09-17 15:57:33] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@20d19f2c
+[2025-09-17 15:57:35] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 530,
+  "title": "Dying of the Light",
+  "body": "Voluptatem eveniet qui mollitia.",
+  "id": 101
+}
+[2025-09-17 16:02:19] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@17b37e9a
+[2025-09-17 16:02:22] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 999,
+  "title": "Default Builder Title",
+  "body": "Default Builder Body",
+  "id": 101
+}
+[2025-09-17 16:02:39] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@63f40ca0
+[2025-09-17 16:02:41] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 999,
+  "title": "Title: The Heart Is a Lonely Hunter",
+  "body": "Ullam libero consectetur. Sunt et sint impedit saepe. Assumenda laboriosam debitis eos architecto dolorum dicta sed.",
+  "id": 101
+}
+[2025-09-17 16:06:18] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@265c1a7c
+[2025-09-17 16:06:20] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 999,
+  "title": "Custom Title 1",
+  "body": "Molestias vero ducimus aliquid. Officiis quia voluptatibus. Eveniet libero deserunt et voluptatum hic. Quae rerum quisquam nesciunt facilis eligendi consequuntur. Nostrum veniam omnis pariatur error.",
+  "id": 101
+}
+[2025-09-17 16:06:20] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@5e7cd0df
+[2025-09-17 16:06:21] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 888,
+  "title": "Custom Title 2",
+  "body": "Aliquid doloremque dolorem ipsam commodi est voluptatem ipsa. Voluptatem voluptatem voluptatem amet. Quia quo optio error. Nisi cumque quo cum veritatis. Dicta non sapiente dolorem et corporis eos quibusdam.",
+  "id": 101
+}
+[2025-09-17 18:58:16] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@46468f0
+[2025-09-17 18:58:20] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 777,
+  "title": "Title: Number the Stars",
+  "body": "Ad facere pariatur quis eum. Tempore quo nihil non porro doloribus quibusdam. Voluptatem et distinctio et recusandae quo aut et. Architecto architecto illo voluptas ut ea id. Cumque et ipsam laboriosam voluptatem laborum illum illo.",
+  "id": 101
+}
+[2025-09-17 18:58:20] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@4f563f96
+[2025-09-17 18:58:21] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Title: Oh! To be in England",
+  "body": "Mollitia harum blanditiis impedit recusandae qui laudantium. Nisi et esse. Assumenda blanditiis error aut mollitia laborum velit amet. Et consequatur velit. Suscipit rerum iusto quam.",
+  "id": 1
+}
+[2025-09-17 19:12:27] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@143fefaf
+[2025-09-17 19:12:30] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 777,
+  "title": "Title: The Violent Bear It Away",
+  "body": "Sint fuga sequi facere voluptate qui rerum repellendus. Eaque est dolores. Vel officiis esse.",
+  "id": 101
+}
+[2025-09-17 19:12:30] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@71d0b8a4
+[2025-09-17 19:12:31] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 777,
+  "title": "Title: Nine Coaches Waiting",
+  "body": "Totam laborum veniam similique quas animi assumenda. Suscipit consectetur soluta. Magni cum corporis illum. Inventore officiis eos. Quia ut quis omnis magnam.",
+  "id": 1
+}
+[2025-09-17 19:23:32] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@289f15e9
+[2025-09-17 19:23:35] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 777,
+  "title": "Title: The Stars' Tennis Balls",
+  "body": "Error aut dicta magnam rerum est. Earum culpa velit neque ut. Delectus atque inventore.",
+  "id": 101
+}
+[2025-09-17 19:23:35] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@d5e3f55
+[2025-09-17 19:23:36] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 777,
+  "title": "Title: Stranger in a Strange Land",
+  "body": "Est asperiores consequatur necessitatibus accusantium. Maxime dicta et aut assumenda quam odit at. Qui impedit accusamus nobis ut. Corporis unde omnis asperiores.",
+  "id": 101
+}
+[2025-09-17 19:23:36] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@134955bb
+[2025-09-17 19:23:37] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 777,
+  "title": "Title: The Doors of Perception",
+  "body": "Eos placeat accusamus deserunt debitis et. Perspiciatis id itaque est architecto omnis sint iusto. Illum aut quibusdam soluta repellendus quibusdam dolore.",
+  "id": 101
+}
+[2025-09-17 19:24:49] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@9690008
+[2025-09-17 19:24:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 2556,
+  "title": "Title: Behold the Man",
+  "body": "Voluptatem consectetur commodi. Explicabo id necessitatibus sed aliquid qui. Id voluptas quo rerum deleniti.",
+  "id": 101
+}
+[2025-09-17 19:24:52] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@3883031d
+[2025-09-17 19:24:52] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 52,
+  "title": "Title: Beneath the Bleeding",
+  "body": "Animi aspernatur sunt quaerat eum saepe. Magni sit quo possimus culpa in eaque consectetur. Delectus tenetur ad.",
+  "id": 101
+}
+[2025-09-17 19:24:52] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@9cb927e
+[2025-09-17 19:24:53] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 632,
+  "title": "Title: Let Us Now Praise Famous Men",
+  "body": "Qui repellat consequuntur sunt sint esse tenetur sequi. Enim et beatae sit qui voluptatem placeat. Alias alias non quisquam atque. Aut velit autem a molestiae eos commodi sit.",
+  "id": 101
+}
+[2025-09-17 19:25:57] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@9690008
+[2025-09-17 19:25:59] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Title One",
+  "body": "Body One",
+  "id": 101
+}
+[2025-09-17 19:25:59] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@3883031d
+[2025-09-17 19:26:00] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 5678,
+  "title": "Title Two",
+  "body": "Body Two",
+  "id": 101
+}
+[2025-09-17 19:26:00] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@2b6ee447
+[2025-09-17 19:26:00] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 3465,
+  "title": "Title Three",
+  "body": "Body Three",
+  "id": 101
+}
+[2025-09-17 19:33:02] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@2d22d3b1
+[2025-09-17 19:33:04] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Title One",
+  "body": "Body One",
+  "id": 101
+}
+[2025-09-17 19:33:04] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@63d66761
+[2025-09-17 19:33:05] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 5678,
+  "title": "Title Two",
+  "body": "Body Two",
+  "id": 101
+}
+[2025-09-17 19:33:05] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@813ab53
+[2025-09-17 19:33:06] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 3465,
+  "title": "Title Three",
+  "body": "Body Three",
+  "id": 101
+}
+[2025-09-17 19:33:06] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@470f0637
+[2025-09-17 19:33:06] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 1111,
+  "title": "Default Builder Title",
+  "body": "Default Builder Body",
+  "id": 1
+}
+[2025-09-17 19:33:06] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@43de9fc9
+[2025-09-17 19:33:07] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 2222,
+  "title": "Default Builder Title",
+  "body": "Default Builder Body",
+  "id": 1
+}
+[2025-09-17 19:33:07] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@433b546f
+[2025-09-17 19:33:07] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 3333,
+  "title": "Default Builder Title",
+  "body": "Default Builder Body",
+  "id": 1
+}
+[2025-09-17 19:35:08] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@19cdc217
+[2025-09-17 19:35:11] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Title One",
+  "body": "Body One",
+  "id": 101
+}
+[2025-09-17 19:35:11] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@2d2133fd
+[2025-09-17 19:35:12] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 5678,
+  "title": "Title Two",
+  "body": "Body Two",
+  "id": 101
+}
+[2025-09-17 19:35:12] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@666b91db
+[2025-09-17 19:35:12] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 3465,
+  "title": "Title Three",
+  "body": "Body Three",
+  "id": 101
+}
+[2025-09-17 19:35:12] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@3a6b94b6
+[2025-09-17 19:35:13] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 1111,
+  "title": "Title One",
+  "body": "Body One",
+  "id": 1
+}
+[2025-09-17 19:35:13] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@228958a
+[2025-09-17 19:35:13] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 2222,
+  "title": "Title Two",
+  "body": "Body Two",
+  "id": 1
+}
+[2025-09-17 19:35:13] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@654db80b
+[2025-09-17 19:35:14] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 3333,
+  "title": "Title Three",
+  "body": "Body Three",
+  "id": 1
+}
+[2025-09-17 19:40:48] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@11eec06b
+[2025-09-17 19:40:51] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Title: A Passage to India",
+  "body": "Body One",
+  "id": 101
+}
+[2025-09-17 19:40:51] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@31c5304f
+[2025-09-17 19:40:52] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 5678,
+  "title": "Title: Ah, Wilderness!",
+  "body": "Body Two",
+  "id": 101
+}
+[2025-09-17 19:40:52] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@67d180e4
+[2025-09-17 19:40:53] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 3465,
+  "title": "Title: Postern of Fate",
+  "body": "Body Three",
+  "id": 101
+}
+[2025-09-17 19:40:53] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@e2f6e13
+[2025-09-17 19:40:54] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 1111,
+  "title": "Default Builder Title",
+  "body": "Body One",
+  "id": 1
+}
+[2025-09-17 19:40:54] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@5c9e6d95
+[2025-09-17 19:40:55] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 2222,
+  "title": "Default Builder Title",
+  "body": "Body Two",
+  "id": 1
+}
+[2025-09-17 19:40:55] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@4e02f17d
+[2025-09-17 19:40:56] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 3333,
+  "title": "Default Builder Title",
+  "body": "Body Three",
+  "id": 1
+}
+[2025-09-17 20:11:39] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@7f0766ef
+[2025-09-17 20:11:40] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Fixed Title A",
+  "body": "Quod nam et ut.",
+  "id": 101
+}
+[2025-09-17 20:11:40] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@33f81280
+[2025-09-17 20:11:41] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 5678,
+  "title": "The Wealth of Nations",
+  "body": "Fixed Body B",
+  "id": 101
+}
+[2025-09-17 20:11:41] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@5521407f
+[2025-09-17 20:11:41] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 9999,
+  "title": "Hybrid Title 837",
+  "body": "Sed libero omnis. Molestiae eligendi sequi. Maiores dolores enim.",
+  "id": 101
+}
+[2025-09-17 20:11:42] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@7bfcc108
+[2025-09-17 20:11:42] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 1111,
+  "title": "Clouds of Witness",
+  "body": "Update Body 1",
+  "id": 1
+}
+[2025-09-17 20:11:42] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@6c851821
+[2025-09-17 20:11:43] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 2222,
+  "title": "Fixed Update Title",
+  "body": "Est molestias et ut omnis itaque.",
+  "id": 1
+}
+[2025-09-17 20:11:43] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@14d298d6
+[2025-09-17 20:11:43] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 3333,
+  "title": "Mix-yak",
+  "body": "Hybrid Body 2",
+  "id": 1
+}
+[2025-09-17 20:21:22] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@7f0766ef
+[2025-09-17 20:21:24] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 1234,
+  "title": "Fixed Title A",
+  "body": "Quia dolorem accusantium quam sit.",
+  "id": 101
+}
+[2025-09-17 20:21:24] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@3991fe6d
+[2025-09-17 20:21:25] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 5678,
+  "title": "Quo Vadis",
+  "body": "Fixed Body B",
+  "id": 101
+}
+[2025-09-17 20:21:25] [INFO] [com.demo.utils.ApiUtils] - POST Request -> Endpoint: /posts, Payload: com.demo.models.Post@42b500aa
+[2025-09-17 20:21:25] [INFO] [com.demo.utils.ApiUtils] - Response Status: 201, Body: {
+  "userId": 9999,
+  "title": "Hybrid Title 743",
+  "body": "Consequatur rem consequatur suscipit. Inventore et nisi corporis. Et doloremque sed non reprehenderit. Est hic eum illum animi ratione enim nesciunt. Quos rerum consequatur velit similique voluptate harum.",
+  "id": 101
+}
+[2025-09-17 20:21:25] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@65b680b4
+[2025-09-17 20:21:26] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 1111,
+  "title": "The Wealth of Nations",
+  "body": "Update Body 1",
+  "id": 1
+}
+[2025-09-17 20:21:26] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@4c0930c4
+[2025-09-17 20:21:26] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 2222,
+  "title": "Fixed Update Title",
+  "body": "Excepturi pariatur culpa.",
+  "id": 1
+}
+[2025-09-17 20:21:26] [INFO] [com.demo.utils.ApiUtils] - PUT Request -> Endpoint: /posts/1, Payload: com.demo.models.Post@14d298d6
+[2025-09-17 20:21:27] [INFO] [com.demo.utils.ApiUtils] - Response Status: 200, Body: {
+  "userId": 3333,
+  "title": "Mix-wildebeest",
+  "body": "Hybrid Body 8",
+  "id": 1
+}
