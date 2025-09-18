@@ -13,7 +13,7 @@ jobs:
     steps:
       # Step 1: Checkout repo
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 2: Setup Java
       - name: Set up JDK 17
@@ -26,8 +26,8 @@ jobs:
       - name: Build with Maven
         run: mvn -B clean test
 
-      # Step 4: Upload Extent Report (artifact download only)
-      - name: Upload Extent Report
+      # Step 4: Upload Extent Report as artifact
+      - name: Upload Extent Report (artifact)
         uses: actions/upload-artifact@v4
         with:
           name: extent-report
@@ -41,9 +41,25 @@ jobs:
       - name: Generate Allure Report
         run: allure generate allure-results --clean -o allure-report
 
-      # Step 7: Deploy Allure Report to GitHub Pages
-      - name: Deploy Allure Report to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      # Step 7: Upload Allure Report as artifact
+      - name: Upload Allure Report (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report
+
+      # Step 8: Prepare public folder for GitHub Pages
+      - name: Prepare public folder
+        run: |
+          mkdir -p public/allure-report
+          mkdir -p public/extent-report
+          cp -r allure-report/* public/allure-report/
+          cp target/extent-report.html public/extent-report/index.html
+          echo '<html><body><h2>📊 API Test Reports</h2><ul><li><a href="allure-report/index.html">Allure Report</a></li><li><a href="extent-report/index.html">Extent Report</a></li></ul></body></html>' > public/index.html
+
+      # Step 9: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
+          publish_dir: ./public
