@@ -35,7 +35,7 @@ pipeline {
                 publishHTML([
                     reportDir: 'allure-report',
                     reportFiles: 'index.html',
-                    reportName: 'Allure Report',c
+                    reportName: 'Allure Report',
                     keepAll: true,
                     allowMissing: true
                 ])
