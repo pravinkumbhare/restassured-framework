@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build & Test') {
             steps {
-                sh 'mvn clean test -Dsurefire.useFile=false'
+                bat 'mvn clean test -Dsurefire.useFile=false'
             }
         }
 
@@ -35,7 +35,7 @@ pipeline {
                 publishHTML([
                     reportDir: 'allure-report',
                     reportFiles: 'index.html',
-                    reportName: 'Allure Report',
+                    reportName: 'Allure Report',c
                     keepAll: true,
                     allowMissing: true
                 ])
